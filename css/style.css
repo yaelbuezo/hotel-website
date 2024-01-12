@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Yeseva One';
+    line-height: 1.7em;
+    background-color: #1f3933;
+}
+
+a {
+    color: #9eb9b2;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #9eb9b2;
+}
+
+.text-dark {
+    color: #1f3933;
+}
+
+.text-light {
+    color: #c5d5d1;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    background-color: #d8e3e0;
+    color: #8baba3;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c5d5d1;
+    color: #648f84;
+}
+
+.btn-dark {
+    background-color: #c5d5d1;
+    color: #648f84;
+}
+
+.btn-dark:hover {
+    background-color: #d8e3e0;
+    color: #8baba3;
+}
+
+.bg-dark {
+    background-color: #37675b;
+    color: #c5d5d1;
+}
+
+.bg-light {
+    background-color: #c5d5d1;
+    color: #37675b;
+}
+
+.bg-primary {
+    background-color: #779d93;
+    color: #c5d5d1;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 35px;
+}
+
+/* Padding  */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* Navbar */
+#navbar {
+    background: #c5d5d1;
+    color: #648f84;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #648f84;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background: #d8e3e0;
+    color: #8baba3;
+}
+
+/* Showcase */
+#showcase {
+    background: url(../img/home/showcase.png) no-repeat center center/cover;
+    height: 500px;
+}
+
+#showcase .showcase-content {
+    color: #37675b;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    color: #3e7366;
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    color: #37675b;
+}
+
+/* Home Info */
+#home-info {
+    height: 450px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url(../img/home/home-info3.png) no-repeat bottom;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+    font-family: 'Poppins';
+}
+
+/* Features */
+.box {
+    font-family: 'Poppins';
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box h3 {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 70%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    margin-top: 50px;
+}
+
+#about-info .info-left h1 {
+    color: #c5d5d1;
+}
+
+#about-info .info-left p {
+    font-family: 'Poppins';
+}
+
+/* Testimonials */
+#testimonials {
+    height: 100%;
+    background: url(../img/about/our-guests.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #1f3933;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    opacity: 0.9;    
+}
+
+#testimonials .testimonial p {
+    font-family: 'Poppins';
+    color: #37675b;
+}
+
+#testimonials .testimonial img {
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Form */
+.container h1 {
+    color: #d8e3e0;
+}
+
+.container p {
+    font-family: 'Poppins';
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+    color: #c5d5d1;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #8baba3 solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #c5d5d1;
+}
+
+/* Footer */
+#main-footer {
+    font-family: 'Poppins';
+    text-align: center;
+    background-color: #1f3933;
+    color: #d8e3e0;
+    font-size: 13px;
+}
+
